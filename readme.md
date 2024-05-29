@@ -1,5 +1,5 @@
 # Введение.
-## A. A + B
+## [A. A + B](https://github.com/mishcum/Algorithms-and-data-structures/blob/main/Introduction/A.java)
 
 | Ограничение времени | 1 секунда       |
 |---------------------|-----------------|
@@ -32,7 +32,7 @@
 **Вывод:**
 -1
 
-## B. Числа Фибоначчи
+## [B. Числа Фибоначчи](https://github.com/mishcum/Algorithms-and-data-structures/blob/main/Introduction/B.java)
 
 | Ограничение времени | 1 секунда       |
 |---------------------|-----------------|
@@ -79,7 +79,7 @@
 **Вывод:**
 3
 
-## C. Проверка на простоту
+## [C. Проверка на простоту](https://github.com/mishcum/Algorithms-and-data-structures/blob/main/Introduction/C.java)
 
 | Ограничение времени | 1 секунда       |
 |---------------------|-----------------|
@@ -105,7 +105,7 @@
 **Вывод:**
 prime
 
-## D. Успеваемость
+## [D. Успеваемость](https://github.com/mishcum/Algorithms-and-data-structures/blob/main/Introduction/D.java)
 
 | Ограничение времени | 1 секунда       |
 |---------------------|-----------------|
@@ -131,7 +131,7 @@ prime
 **Вывод:**
 prime
 
-## E. Разложение на простые
+## [E. Разложение на простые](https://github.com/mishcum/Algorithms-and-data-structures/blob/main/Introduction/E.java)
 
 | Ограничение времени | 1 секунда       |
 |---------------------|-----------------|
@@ -164,7 +164,7 @@ prime
 **Вывод:**
 2^4 * 3^2*7
 
-## F. К-е простое число
+## [F. К-е простое число](https://github.com/mishcum/Algorithms-and-data-structures/blob/main/Introduction/F.java)
 | Ограничение времени | 1 секунда       |
 |---------------------|-----------------|
 | Ограничение памяти  | 256.0 МБ         |
@@ -181,7 +181,7 @@ prime
 **Вывод:**
 3
 
-## G. Разделим все!
+## [G. Разделим все!](https://github.com/mishcum/Algorithms-and-data-structures/blob/main/Introduction/G.java)
 
 | Ограничение времени | 1 секунда       |
 |---------------------|-----------------|
@@ -219,7 +219,7 @@ prime
 
 # Квадратичные сортировки.
 
-## A. Сортировка пузырьком
+## [A. Сортировка пузырьком](https://github.com/mishcum/Algorithms-and-data-structures/blob/main/sorting/A.java)
 
 | Ограничение времени | 1 секунда       |
 |---------------------|-----------------|
@@ -256,7 +256,7 @@ prime
 1 2 3 4  
 2
 
-## B. Сортировка простыми вставками
+## [B. Сортировка простыми вставками](https://github.com/mishcum/Algorithms-and-data-structures/blob/main/sorting/B.java)
 
 | Ограничение времени | 1 секунда       |
 |---------------------|-----------------|
@@ -304,7 +304,7 @@ prime
 Пояснение к примеру 2:
 Изначально отсортированная часть состоит из одного элемента, остальные четыре элемента уже находятся на своём месте, поэтому ответ 4.
 
-## C. Метод Вставками
+## [C. Метод Вставками](https://github.com/mishcum/Algorithms-and-data-structures/blob/main/sorting/C.java)
 
 | Ограничение времени | 1.5 секунд       |
 |---------------------|-----------------|
@@ -351,7 +351,7 @@ prime
 **Вывод:**  
 17 82
 
-## D. Результаты соревнований
+## [D. Результаты соревнований](https://github.com/mishcum/Algorithms-and-data-structures/blob/main/sorting/D.java)
 
 | Ограничение времени | 1 секунда       |
 |---------------------|-----------------|
@@ -396,7 +396,7 @@ prime
 30 80  
 10 70   
 
-## E. Хипуй!
+## [E. Хипуй!](https://github.com/mishcum/Algorithms-and-data-structures/blob/main/sorting/E.java)
 
 | Ограничение времени | 4 секунды       |
 |---------------------|-----------------|
@@ -426,7 +426,7 @@ prime
 **Вывод:**  
 10000
 
-## F. Пирамидальная сортировка
+## [F. Пирамидальная сортировка](https://github.com/mishcum/Algorithms-and-data-structures/blob/main/sorting/F.java)
 
 | Ограничение времени | 2 секунды       |
 |---------------------|-----------------|
@@ -454,7 +454,7 @@ prime
 **Вывод:**  
 1 2 3 4 5 
 
-## G. Склад
+## [G. Склад](https://github.com/mishcum/Algorithms-and-data-structures/blob/main/sorting/G.java)
 
 | Ограничение времени | 1 секундa       |
 |---------------------|-----------------|
@@ -512,7 +512,7 @@ prime
 **Вывод:**  
 3
 
-## H. Агентство по подбору персонала
+## [H. Агентство по подбору персонала](https://github.com/mishcum/Algorithms-and-data-structures/blob/main/sorting/H.java)
 
 | Ограничение времени | 2 секунды       |
 |---------------------|-----------------|
@@ -571,7 +571,7 @@ $(1≤arr1[i],arr2[i]≤10^5)$
 
 # Cортировки 2
 
-## A. Объединение последовательностей
+## [A. Объединение последовательностей](https://github.com/mishcum/Algorithms-and-data-structures/blob/main/sorting2/A.java)
 
 | Ограничение времени | 1 секунда       |
 |---------------------|-----------------|
@@ -610,7 +610,7 @@ $x$ $(1≤x≤10^7)$.
 4  
 
 
-## B. Сортировка слиянием
+## [B. Сортировка слиянием](https://github.com/mishcum/Algorithms-and-data-structures/blob/main/sorting2/B.java)
 
 | Ограничение времени | 4 секунды       |
 |---------------------|-----------------|
@@ -658,7 +658,7 @@ $x$ $(1≤x≤10^7)$.
 1 2 3 4 5 
 
 
-## C. Быстрая сортировка
+## [C. Быстрая сортировка](https://github.com/mishcum/Algorithms-and-data-structures/blob/main/sorting2/C.java)
 
 | Ограничение времени | 4 секунды       |
 |---------------------|-----------------|
@@ -697,7 +697,7 @@ $x$ $(1≤x≤10^7)$.
 75267074 99604066 342179425 342194485 374155361 539523323 707064224 
 
 
-## D. Задача про марки
+## [D. Задача про марки](https://github.com/mishcum/Algorithms-and-data-structures/blob/main/sorting2/D.java)
 
 | Ограничение времени | 1 секундa       |
 |---------------------|-----------------|
@@ -725,7 +725,7 @@ $x$ $(1≤x≤10^7)$.
 **Вывод:**   
 3
 
-## E. Гражданская оборона
+## [E. Гражданская оборона](https://github.com/mishcum/Algorithms-and-data-structures/blob/main/sorting2/E.java)
 
 | Ограничение времени | 2 секунды       |
 |---------------------|-----------------|
