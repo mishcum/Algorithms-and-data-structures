@@ -2,18 +2,16 @@
 #include <vector>
 #include <string>
  
-class A {
-public:
-    static int get_sum(int s, int f, const std::vector<int>& sum_cost) {
-        return sum_cost[f] - sum_cost[s - 1];
-    }
+int get_sum(int s, int f, const std::vector<int>& sum_cost) {
+    return sum_cost[f] - sum_cost[s - 1];
+}
 
-    static void sum(const std::vector<int>& cost, std::vector<int>& sum_cost, int n) {
-        for (int i = 1; i <= n; ++i) {
-            sum_cost[i] = sum_cost[i - 1] + cost[i];
-        }
+void sum(const std::vector<int>& cost, std::vector<int>& sum_cost, int n) {
+    for (int i = 1; i <= n; ++i) {
+        sum_cost[i] = sum_cost[i - 1] + cost[i];
     }
-};
+}
+
 
 int main() {
     std::ios_base::sync_with_stdio(false);
@@ -30,7 +28,7 @@ int main() {
         sum_cost[i] = cost[i];
     }
 
-    A::sum(cost, sum_cost, n);
+    sum(cost, sum_cost, n);
 
     for (int i = 0; i < q; ++i) {
         std::string arg;
@@ -38,10 +36,10 @@ int main() {
         std::cin >> arg >> a >> b;
 
         if (arg == "?") {
-            std::cout << A::get_sum(a, b, sum_cost) << '\n';
+            std::cout << get_sum(a, b, sum_cost) << '\n';
         } else {
             cost[a] = b;
-            A::sum(cost, sum_cost, n);
+            sum(cost, sum_cost, n);
         }
     }
 

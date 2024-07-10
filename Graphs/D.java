@@ -27,6 +27,6 @@ class D {
         in.close();
         ArrayList<Integer> used = new ArrayList<>();
         dfs(matrix, t - 1, used);
-        System.out.println(used);
+        System.out.println(used.size());
     }
 }

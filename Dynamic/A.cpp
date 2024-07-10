@@ -17,6 +17,6 @@ int main() {
     for (int i = 4; i < n + 1; i++) {
         stair[i] = (stair[i - 1] + stair[i - 2] + stair[i - 3]) % (long long)(1000000000 + 7);
     }
-    cout << abs(stair[n]) << endl;
+    cout << stair[n] << endl;
 }
 

@@ -43,13 +43,10 @@ class B {
             arr2[i] = Scanner.nextInt();
         }
         Scanner.close();
-        //long start = System.nanoTime();
         for (int i = 0; i < m; i++) {
             if (leftbsc(arr, arr2[i]) == -1) System.out.println(arr[rightbsc(arr, arr2[i])]);
             else if (rightbsc(arr, arr2[i]) == -1) System.out.println(arr[leftbsc(arr, arr2[i])]);
             else System.out.println((Math.abs(arr[rightbsc(arr, arr2[i])] - arr2[i]) <= Math.abs(arr[leftbsc(arr, arr2[i])] - arr2[i])) ? arr[rightbsc(arr, arr2[i])] : arr[leftbsc(arr, arr2[i])] );
         }
-        //long finish = System.nanoTime();
-        //System.out.println("\n" + (finish - start) / 1_000_000 + "ms");
     } 
 }
